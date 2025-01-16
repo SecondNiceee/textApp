@@ -20,8 +20,6 @@ async function getMediaByTerm(term : string, mediaType : TMediaType) {
         limit : '10',
     }}) 
 
-    console.log(term)
-
     return musics?.results
 }
 

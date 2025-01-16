@@ -24,9 +24,10 @@ const Home = () => {
 
         setMediaFetchStatus("pending")
 
-        const musics = await getMediaByTerm(term, mediaType)
+        const medias = await getMediaByTerm(term, mediaType)
 
-        if (musics){
+
+        if (medias){
             setMedias(medias)
         }
         else{
