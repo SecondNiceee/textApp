@@ -1,0 +1,1 @@
+export type TServerStatus = "fulfilled" | "pending" | "rejected"

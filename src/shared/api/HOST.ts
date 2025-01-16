@@ -1,0 +1,1 @@
+export const HOST = 'https://itunes.apple.com' // не добавил в .env, чтобы вам не было муторно

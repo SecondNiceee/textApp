@@ -1,0 +1,1 @@
+export type TMediaType = "movie" | "podcast" | "music"
